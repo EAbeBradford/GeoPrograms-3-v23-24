@@ -5,7 +5,7 @@ public class B1_TeachMeLoop extends World {
 
         plane.pausetime = 2;
         plane.trailWidth = 10;
-
+//changew
         // Below is a for loop that begins on line 21 and ends on line 25 with the curly brackets {}
         for (int x = 0; x < 200; x = x + 50) {
             plane.setColor(0, 0, (int)(Math.random() *255));
